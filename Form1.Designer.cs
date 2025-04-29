@@ -39,6 +39,7 @@
             this.chkUrgente = new System.Windows.Forms.CheckBox();
             this.cmbProducto = new System.Windows.Forms.ComboBox();
             this.txtCliente = new System.Windows.Forms.TextBox();
+            this.btnHistorial = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudDistancia)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPeso)).BeginInit();
             this.SuspendLayout();
@@ -54,7 +55,7 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(148, 190);
+            this.lblResultado.Location = new System.Drawing.Point(287, 187);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(69, 16);
             this.lblResultado.TabIndex = 20;
@@ -137,11 +138,21 @@
             this.txtCliente.Size = new System.Drawing.Size(100, 22);
             this.txtCliente.TabIndex = 11;
             // 
+            // btnHistorial
+            // 
+            this.btnHistorial.Location = new System.Drawing.Point(151, 187);
+            this.btnHistorial.Name = "btnHistorial";
+            this.btnHistorial.Size = new System.Drawing.Size(75, 23);
+            this.btnHistorial.TabIndex = 23;
+            this.btnHistorial.Text = "Historial";
+            this.btnHistorial.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(376, 220);
+            this.ClientSize = new System.Drawing.Size(430, 293);
+            this.Controls.Add(this.btnHistorial);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnCalcular);
@@ -175,6 +186,7 @@
         private System.Windows.Forms.CheckBox chkUrgente;
         private System.Windows.Forms.ComboBox cmbProducto;
         private System.Windows.Forms.TextBox txtCliente;
+        private System.Windows.Forms.Button btnHistorial;
     }
 }
 
