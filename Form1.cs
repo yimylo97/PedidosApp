@@ -15,6 +15,7 @@ namespace PedidosApp
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
@@ -35,6 +36,12 @@ namespace PedidosApp
             {
                 MessageBox.Show("Error: " + ex.Message);
             }
+        }
+
+        private void btnHistorial_Click(object sender, EventArgs e)
+        {
+            new FormHistorial().ShowDialog();
+           
         }
     }
 }
