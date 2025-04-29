@@ -18,7 +18,11 @@ namespace PedidosApp
             {
                 lock (_lock)
                 {
-                    return _instancia ??= new RegistroPedidos();
+                    if (_instancia == null)
+                    {
+                        _instancia = new RegistroPedidos();
+                    }
+                    return _instancia;
                 }
             }
         }
