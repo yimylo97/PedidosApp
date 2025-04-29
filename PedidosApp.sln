@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidosApp", "PedidosApp.csproj", "{0EA20CCC-C305-4008-8B2E-A7407C1FDB8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EA20CCC-C305-4008-8B2E-A7407C1FDB8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EA20CCC-C305-4008-8B2E-A7407C1FDB8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EA20CCC-C305-4008-8B2E-A7407C1FDB8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EA20CCC-C305-4008-8B2E-A7407C1FDB8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8EAAC12-50B9-4543-863F-C819809FF2F7}
+	EndGlobalSection
+EndGlobal
