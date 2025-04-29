@@ -41,7 +41,7 @@ namespace PedidosApp
 
             dgvHistorial.DataSource = null;
             dgvHistorial.DataSource = pedidos
-                .Select(p => new
+                Select(p => new
                 {
                     p.Cliente,
                     p.Producto,
