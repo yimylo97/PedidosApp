@@ -40,7 +40,7 @@
             this.dgvHistorial.Name = "dgvHistorial";
             this.dgvHistorial.RowHeadersWidth = 51;
             this.dgvHistorial.RowTemplate.Height = 24;
-            this.dgvHistorial.Size = new System.Drawing.Size(788, 150);
+            this.dgvHistorial.Size = new System.Drawing.Size(913, 150);
             this.dgvHistorial.TabIndex = 0;
             // 
             // cmbFiltroEntrega
@@ -55,7 +55,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(925, 450);
             this.Controls.Add(this.cmbFiltroEntrega);
             this.Controls.Add(this.dgvHistorial);
             this.Name = "FormHistorial";
